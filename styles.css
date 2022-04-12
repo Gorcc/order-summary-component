@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+p{
+    color: hsl(224, 23%, 55%);
+}
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-position: top ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: column;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 80vh;
+    background-color: white;
+   
+    border-radius: 15px;
+    margin-top: 3%;
+
+}
+
+.main-image{
+   
+    
+    
+    
+}
+
+.main-image img{
+    border-radius: 15px 15px 0 0;
+}
+
+.title{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.title h1{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+
+.plan-name-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.info{
+    margin-right: 60px;
+    
+}
+
+.main-button{
+    -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #f5f2f5;
+  font-size: 16px;
+  background: hsl(245, 75%, 52%);
+  padding: 10px 80px 10px 80px;
+  text-decoration: none;
+  margin: 25px;
+  font-weight: bold;
+  transition: 0.3s all ease;
+
+}
+
+.main-button:hover{
+    background-color: hsl(265, 27%, 48%);
+}
+.cancel-button{
+    -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #5d5db2;
+  font-size: 16px;
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.attribution{
+    margin-top: 30px;
+}
+.white-bg{
+    background-color: white;
+    width: 57vh;
+    height: 70vh;
+    border: 15px solid white;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#info-a:hover{
+    font-weight: 700;
+}
